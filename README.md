@@ -19,8 +19,8 @@ Project website:
 https://marybol7.github.io/CausticsPluginUE/
 
 ```md
-## ![LiquidFX Demo](Docs/Images/liquidfx_demo.png)
-## ![LiquidFX Demo](Docs/Images/liquidfx_demo.gif)
+![LiquidFX Demo](Docs/Images/liquidfx_demo.png)
+[//]: # ( [LiquidFX Demo](Docs/Images/liquidfx_demo.gif) )
 ```
 
 ---
