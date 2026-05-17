@@ -18,10 +18,7 @@ The goal of this project is not to create a physically accurate fluid simulation
 Project website:  
 https://marybol7.github.io/CausticsPluginUE/
 
-```md
-![LiquidFX Demo](docs/images/liquidfx_demo.png)
-[//]: # ( [LiquidFX Demo](Docs/Images/liquidfx_demo.gif) )
-```
+![LiquidFX Demo](./docs/images/liquidfx_demo.png)
 
 ---
 
