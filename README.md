@@ -18,7 +18,7 @@ The goal of this project is not to create a physically accurate fluid simulation
 Project website:  
 https://marybol7.github.io/CausticsPluginUE/
 
-![LiquidFX Demo](./images/liquidfx_demo.png)
+![LiquidFX Demo](./docs/images/liquidfx_demo.png)
 
 ---
 
@@ -249,27 +249,27 @@ images/
 
 ### Demo Level
 
-![LiquidFX Demo](./images/liquidfx_demo.png)
+![LiquidFX Demo](./docs/images/liquidfx_demo.png)
 
 ### Caustics
 
-![Spotlight Caustics](./images/2_caus_spot.png)
+![Spotlight Caustics](./docs/images/2_caus_spot.png)
 
 ### Wave Systems
 
 | Sine Wave | Gerstner Waves | Sine + Gerstner |
 |---|---|---|
-| <img src="./images/3_1_senoidal.png" alt="Sine wave water surface" width="100%"> | <img src="./images/3_1_gerstner.png" alt="Gerstner wave water surface" width="100%"> | <img src="./images/3_1_combined.png" alt="Combined sine and Gerstner water surface" width="100%"> |
+| <img src="./images/3_1_senoidal.png" alt="Sine wave water surface" width="100%"> | <img src="./docs/images/3_1_gerstner.png" alt="Gerstner wave water surface" width="100%"> | <img src="./docs/images/3_1_combined.png" alt="Combined sine and Gerstner water surface" width="100%"> |
 
 ### Underwater Distortion
 
-![Underwater Distortion](./images/8_distorsion.png)
+![Underwater Distortion](./docs/images/8_distorsion.png)
 
 ### Foam and Object Interaction
 
 | Shoreline Foam | Impact Ripple |
 |---|---|
-| <img src="./images/10_foam_orilla.png" alt="Shoreline foam" width="100%"> | <img src="./images/11_ripple.png" alt="Impact ripple on water surface" width="100%"> |
+| <img src="./docs/images/10_foam_orilla.png" alt="Shoreline foam" width="100%"> | <img src="./docs/images/11_ripple.png" alt="Impact ripple on water surface" width="100%"> |
 
 ---
 
