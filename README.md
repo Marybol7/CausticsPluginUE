@@ -18,7 +18,7 @@ The goal of this project is not to create a physically accurate fluid simulation
 Project website:  
 https://marybol7.github.io/CausticsPluginUE/
 
-![LiquidFX Demo](./docs/images/liquidfx_demo.png)
+![LiquidFX Demo](./images/liquidfx_demo.png)
 
 ---
 
@@ -233,38 +233,43 @@ The modular structure allows individual effects to be adjusted or disabled depen
 
 ## Screenshots
 
-> Recommended folder structure:
+The following screenshots show the same visual results presented on the project website. All images should be placed in the `images/` folder at the root of the repository.
 
 ```txt
-Docs/
-└── Images/
-    ├── water_base.png
-    ├── caustics_comparison.png
-    ├── waves_comparison.png
-    ├── underwater.png
-    ├── foam_ripples.png
-    └── liquid_types.png
+images/
+├── liquidfx_demo.png
+├── 2_caus_spot.png
+├── 3_1_senoidal.png
+├── 3_1_gerstner.png
+├── 3_1_combined.png
+├── 8_distorsion.png
+├── 10_foam_orilla.png
+└── 11_ripple.png
 ```
 
-### Water and Caustics
+### Demo Level
 
-![Water and Caustics](Docs/Images/caustics_comparison.png)
+![LiquidFX Demo](./images/liquidfx_demo.png)
+
+### Caustics
+
+![Spotlight Caustics](./images/2_caus_spot.png)
 
 ### Wave Systems
 
-![Wave Systems](Docs/Images/waves_comparison.png)
+| Sine Wave | Gerstner Waves | Sine + Gerstner |
+|---|---|---|
+| <img src="./images/3_1_senoidal.png" alt="Sine wave water surface" width="100%"> | <img src="./images/3_1_gerstner.png" alt="Gerstner wave water surface" width="100%"> | <img src="./images/3_1_combined.png" alt="Combined sine and Gerstner water surface" width="100%"> |
 
-### Underwater Scene
+### Underwater Distortion
 
-![Underwater](Docs/Images/underwater.png)
+![Underwater Distortion](./images/8_distorsion.png)
 
-### Foam and Interaction
+### Foam and Object Interaction
 
-![Foam and Interaction](Docs/Images/foam_ripples.png)
-
-### Liquid Variants
-
-![Liquid Variants](Docs/Images/liquid_types.png)
+| Shoreline Foam | Impact Ripple |
+|---|---|
+| <img src="./images/10_foam_orilla.png" alt="Shoreline foam" width="100%"> | <img src="./images/11_ripple.png" alt="Impact ripple on water surface" width="100%"> |
 
 ---
 
