@@ -259,7 +259,7 @@ images/
 
 | Sine Wave | Gerstner Waves | Sine + Gerstner |
 |---|---|---|
-| <img src="./images/3_1_senoidal.png" alt="Sine wave water surface" width="100%"> | <img src="./docs/images/3_1_gerstner.png" alt="Gerstner wave water surface" width="100%"> | <img src="./docs/images/3_1_combined.png" alt="Combined sine and Gerstner water surface" width="100%"> |
+| <img src="./docs/images/3_1_senoidal.png" alt="Sine wave water surface" width="100%"> | <img src="./docs/images/3_1_gerstner.png" alt="Gerstner wave water surface" width="100%"> | <img src="./docs/images/3_1_combined.png" alt="Combined sine and Gerstner water surface" width="100%"> |
 
 ### Underwater Distortion
 
