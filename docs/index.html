@@ -1,228 +1,322 @@
 <!DOCTYPE html>
+
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LiquidFX | TFG</title>
-  <meta name="description" content="LiquidFX, plugin modular de simulación visual de cáusticas y efectos líquidos en Unreal Engine 5." />
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>LiquidFX | TFG</title>
+<meta content="LiquidFX, plugin modular de simulación visual de cáusticas y efectos líquidos en Unreal Engine 5." name="description"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-  <div class="background-glow glow-one"></div>
-  <div class="background-glow glow-two"></div>
-  <div class="background-grid"></div>
-
-  <header class="site-header">
-    <a class="logo" href="#inicio" aria-label="Volver al inicio">
-      <span class="logo-mark">LF</span>
-      <span>LiquidFX</span>
-    </a>
-
-    <nav class="nav-links" aria-label="Navegación principal">
-      <a href="#proyecto">Proyecto</a>
-      <a href="#modulos">Módulos</a>
-      <a href="#galeria">Galería</a>
-      <a href="#video">Vídeo</a>
-      <a href="#github">GitHub</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="inicio" class="hero section-reveal">
-      <div class="hero-content">
-        <p class="eyebrow">Trabajo Fin de Grado · Unreal Engine 5 · Informática Gráfica</p>
-        <h1>LiquidFX</h1>
-        <p class="hero-subtitle">
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+<div class="background-grid"></div>
+<header class="site-header">
+<a aria-label="Volver al inicio" class="logo" href="#inicio">
+<span class="logo-mark">LF</span>
+<span>LiquidFX</span>
+</a>
+<nav aria-label="Navegación principal" class="nav-links">
+<a href="#proyecto">Proyecto</a>
+<a href="#modulos">Módulos</a>
+<a href="#galeria">Galería</a>
+<a href="#videos">Vídeos</a>
+<a href="#github">GitHub</a>
+</nav>
+</header>
+<main>
+<section class="hero section-reveal" id="inicio">
+<div class="hero-content">
+<p class="eyebrow">Trabajo Fin de Grado · Unreal Engine 5 · Informática Gráfica</p>
+<h1>LiquidFX</h1>
+<p class="hero-subtitle">
           Plugin modular para crear superficies líquidas, cáusticas, oleaje, espuma,
           efectos underwater e interacción básica agua-objeto en tiempo real.
         </p>
-
-        <div class="hero-actions">
-          <a class="button button-primary" href="#video">Ver demo</a>
-          <a class="button button-secondary" href="#galeria">Explorar resultados</a>
-        </div>
-
-        <div class="hero-stats" aria-label="Resumen del proyecto">
-          <article>
-            <strong>5+</strong>
-            <span>bloques visuales</span>
-          </article>
-          <article>
-            <strong>UE5</strong>
-            <span>motor principal</span>
-          </article>
-          <article>
-            <strong>Real time</strong>
-            <span>enfoque interactivo</span>
-          </article>
-        </div>
-      </div>
-
-      <div class="hero-visual" aria-label="Representación visual de LiquidFX">
-        <div class="orb orb-a"></div>
-        <div class="orb orb-b"></div>
-        <div class="liquid-panel">
-          <img src="images/demo_general.png" alt="Vista general del nivel demo de LiquidFX" />
-          <div class="panel-overlay">
-            <span class="status-dot"></span>
-            <p>Demo level preview</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="proyecto" class="project-intro section-reveal">
-      <div class="section-heading wide-heading">
-        <p class="eyebrow">Descripción del proyecto</p>
-        <h2>Una base visual reutilizable para efectos líquidos</h2>
-      </div>
-
-      <div class="intro-layout">
-        <p class="large-text">
+<div class="hero-actions">
+<a class="button button-primary" href="#videos">Ver vídeos</a>
+<a class="button button-secondary" href="#galeria">Explorar resultados</a>
+</div>
+<div aria-label="Resumen del proyecto" class="hero-stats">
+<article>
+<strong>5+</strong>
+<span>bloques visuales</span>
+</article>
+<article>
+<strong>UE5</strong>
+<span>motor principal</span>
+</article>
+<article>
+<strong>Real time</strong>
+<span>enfoque interactivo</span>
+</article>
+</div>
+</div>
+<div aria-label="Representación visual de LiquidFX" class="hero-visual">
+<div class="orb orb-a"></div>
+<div class="orb orb-b"></div>
+<div class="liquid-panel">
+<video autoplay="" loop="" muted="" playsinline="" poster="images/liquidfx_demo.png">
+<source src="videos/1_demo_liquido.mp4" type="video/mp4"/>
+</video>
+<div class="panel-overlay">
+<span class="status-dot"></span>
+<p>Demo level preview</p>
+</div>
+</div>
+</div>
+</section>
+<section class="project-intro section-reveal" id="proyecto">
+<div class="section-heading wide-heading">
+<p class="eyebrow">Descripción del proyecto</p>
+<h2>Una base visual reutilizable para efectos líquidos</h2>
+</div>
+<div class="intro-layout">
+<p class="large-text">
           LiquidFX se ha desarrollado como una herramienta modular pensada para construir
           agua visualmente creíble sin recurrir a una simulación física completa. El sistema
           combina materiales, shaders, parámetros editables, Blueprint, cáusticas, postprocesado
           y efectos de interacción para formar una solución flexible dentro de Unreal Engine 5.
         </p>
-
-        <div class="highlight-card">
-          <span class="card-number">01</span>
-          <h3>Objetivo principal</h3>
-          <p>
+<div class="highlight-card">
+<span class="card-number">01</span>
+<h3>Objetivo principal</h3>
+<p>
             Conseguir un equilibrio entre calidad visual, facilidad de configuración y rendimiento,
             manteniendo cada efecto separado en módulos que puedan ampliarse en el futuro.
           </p>
-        </div>
-      </div>
-    </section>
+</div>
+</div>
+</section>
+<section class="modules section-reveal" id="modulos">
+<div class="section-heading">
+<p class="eyebrow">Sistema modular</p>
+<h2>Módulos principales</h2>
+</div>
+<div class="module-grid">
+<article class="module-card tall">
+<span class="module-icon">〰</span>
+<h3>Material base</h3>
+<p>Normales animadas, transparencia, parámetros visuales y base reutilizable para todos los líquidos.</p>
+</article>
+<article class="module-card">
+<span class="module-icon">≈</span>
+<h3>Oleaje</h3>
+<p>Ondas senoidales, Gerstner y combinación con ruido para romper patrones repetitivos.</p>
+</article>
+<article class="module-card">
+<span class="module-icon">✦</span>
+<h3>Cáusticas</h3>
+<p>Proyección dinámica de patrones de luz mediante texturas animadas y spotlight.</p>
+</article>
+<article class="module-card wide">
+<span class="module-icon">◌</span>
+<h3>Integración con el entorno</h3>
+<p>Depth fade, cambio de color según profundidad y mejoras visuales para evitar bordes artificiales.</p>
+</article>
+<article class="module-card">
+<span class="module-icon">☄</span>
+<h3>Underwater</h3>
+<p>Partículas, distorsión visual y oscurecimiento progresivo para reforzar la sensación de inmersión.</p>
+</article>
+<article class="module-card">
+<span class="module-icon">⬡</span>
+<h3>Interacción</h3>
+<p>Espuma, ripples, salpicaduras y una base de flotación simplificada para objetos físicos.</p>
+</article>
+</div>
+</section>
+<section class="gallery section-reveal" id="galeria">
+<div class="section-heading wide-heading">
+<p class="eyebrow">Resultados visuales</p>
+<h2>Capturas del proyecto</h2>
+<p>
+          Esta galería muestra los principales resultados visuales de LiquidFX: demo general,
+          cáusticas, tipos de oleaje, underwater, espuma e interacción mediante ripples.
+        </p>
+</div>
+<div class="gallery-grid">
+<article class="gallery-card featured">
+<img alt="Vista general del nivel demo de LiquidFX" src="images/liquidfx_demo.png"/>
+<div class="gallery-content">
+<span>Vista general</span>
+<h3>Nivel demo de LiquidFX</h3>
+</div>
+</article>
+<article class="gallery-card">
+<img alt="Cáusticas aplicadas mediante spotlight" src="images/2_caus_spot.png"/>
+<div class="gallery-content">
+<span>Cáusticas</span>
+<h3>Spotlight con cáusticas</h3>
+</div>
+</article>
+<div class="wave-comparison-row"><article class="gallery-card">
+<img alt="Agua con movimiento senoidal" src="images/3_1_senoidal.png"/>
+<div class="gallery-content">
+<span>Oleaje</span>
+<h3>Onda senoidal</h3>
+</div>
+</article><article class="gallery-card">
+<img alt="Agua con ondas de Gerstner" src="images/3_1_gerstner.png"/>
+<div class="gallery-content">
+<span>Oleaje</span>
+<h3>Ondas de Gerstner</h3>
+</div>
+</article><article class="gallery-card">
+<img alt="Combinación de onda senoidal y Gerstner" src="images/3_1_combined.png"/>
+<div class="gallery-content">
+<span>Combinación</span>
+<h3>Senoidal + Gerstner</h3>
+</div>
+</article></div>
 
-    <section id="modulos" class="modules section-reveal">
-      <div class="section-heading">
-        <p class="eyebrow">Sistema modular</p>
-        <h2>Módulos principales</h2>
-      </div>
 
-      <div class="module-grid">
-        <article class="module-card tall">
-          <span class="module-icon">〰</span>
-          <h3>Material base</h3>
-          <p>Normales animadas, transparencia, parámetros visuales y base reutilizable para todos los líquidos.</p>
-        </article>
-
-        <article class="module-card">
-          <span class="module-icon">≈</span>
-          <h3>Oleaje</h3>
-          <p>Ondas senoidales, Gerstner y combinación con ruido para romper patrones repetitivos.</p>
-        </article>
-
-        <article class="module-card">
-          <span class="module-icon">✦</span>
-          <h3>Cáusticas</h3>
-          <p>Proyección dinámica de patrones de luz mediante texturas animadas y spotlight.</p>
-        </article>
-
-        <article class="module-card wide">
-          <span class="module-icon">◌</span>
-          <h3>Integración con el entorno</h3>
-          <p>Depth fade, cambio de color según profundidad y mejoras visuales para evitar bordes artificiales.</p>
-        </article>
-
-        <article class="module-card">
-          <span class="module-icon">☄</span>
-          <h3>Underwater</h3>
-          <p>Partículas, distorsión visual y oscurecimiento progresivo para reforzar la sensación de inmersión.</p>
-        </article>
-
-        <article class="module-card">
-          <span class="module-icon">⬡</span>
-          <h3>Interacción</h3>
-          <p>Espuma, ripples, salpicaduras y una base de flotación simplificada para objetos físicos.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="galeria" class="gallery section-reveal">
-      <div class="section-heading wide-heading">
-        <p class="eyebrow">Resultados visuales</p>
-        <h2>Capturas grandes para enseñar el proyecto</h2>
-      </div>
-
-      <div class="gallery-grid">
-        <article class="gallery-card featured">
-          <img src="images/demo_general.png" alt="Vista general del nivel demo" />
-          <div class="gallery-content">
-            <span>Vista general</span>
-            <h3>Nivel demo de LiquidFX</h3>
-          </div>
-        </article>
-
-        <article class="gallery-card">
-          <img src="images/waves_comparison.png" alt="Comparativa de sistemas de oleaje" />
-          <div class="gallery-content">
-            <span>Oleaje</span>
-            <h3>Senoidal, Gerstner y ruido</h3>
-          </div>
-        </article>
-
-        <article class="gallery-card">
-          <img src="images/caustics.png" alt="Cáusticas proyectadas sobre la escena" />
-          <div class="gallery-content">
-            <span>Cáusticas</span>
-            <h3>Patrones de luz animados</h3>
-          </div>
-        </article>
-
-        <article class="gallery-card">
-          <img src="images/underwater.png" alt="Escena underwater con partículas y distorsión" />
-          <div class="gallery-content">
-            <span>Underwater</span>
-            <h3>Distorsión y profundidad</h3>
-          </div>
-        </article>
-
-        <article class="gallery-card">
-          <img src="images/foam_interaction.png" alt="Espuma e interacción agua-objeto" />
-          <div class="gallery-content">
-            <span>Interacción</span>
-            <h3>Foam, ripples y flotación</h3>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="video" class="video-section section-reveal">
-      <div class="section-heading">
-        <p class="eyebrow">Vídeo demostrativo</p>
-        <h2>Demo en movimiento</h2>
-      </div>
-
-      <div class="video-frame">
-        <video controls poster="images/demo_general.png">
-          <source src="videos/demo_liquidfx.mp4" type="video/mp4" />
-          Tu navegador no soporta vídeo HTML5.
-        </video>
-      </div>
-    </section>
-
-    <section id="github" class="github-section section-reveal">
-      <div>
-        <p class="eyebrow">Repositorio</p>
-        <h2>Documentación y código del plugin</h2>
-        <p>
+<article class="gallery-card">
+<img alt="Escena underwater con distorsión visual" src="images/8_distorsion.png"/>
+<div class="gallery-content">
+<span>Underwater</span>
+<h3>Distorsión visual</h3>
+</div>
+</article>
+<article class="gallery-card">
+<img alt="Espuma generada en la orilla" src="images/10_foam_orilla.png"/>
+<div class="gallery-content">
+<span>Foam</span>
+<h3>Espuma en la orilla</h3>
+</div>
+</article>
+<article class="gallery-card">
+<img alt="Ripple generado por impacto sobre el agua" src="images/11_ripple.png"/>
+<div class="gallery-content">
+<span>Interacción</span>
+<h3>Ripple por impacto</h3>
+</div>
+</article>
+</div>
+</section>
+<section class="video-section section-reveal" id="videos">
+<div class="section-heading wide-heading">
+<p class="eyebrow">Vídeos demostrativos</p>
+<h2>LiquidFX en movimiento</h2>
+<p>
+          Esta sección recoge los principales vídeos de la demo: vista general, tipos de agua,
+          cáusticas, escena underwater, interacción con objetos, distintos líquidos, presets y shoreline foam.
+        </p>
+</div>
+<article class="main-video-card">
+<div class="video-frame featured-video">
+<video controls="" poster="images/liquidfx_demo.png" preload="metadata">
+<source src="videos/1_demo_liquido.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+</div>
+<div class="main-video-text">
+<span class="video-tag">Demo principal</span>
+<h3>Vista general del nivel demo</h3>
+<p>
+            Presenta el sistema completo y sirve como primer contacto visual con el plugin.
+            Es el vídeo principal de la página.
+          </p>
+</div>
+</article>
+<div class="video-grid">
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/2_water_types.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Oleaje</span>
+<h3>Tipos de movimiento del agua</h3>
+<p>Comparativa entre agua base, onda senoidal, Gerstner y combinaciones.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/3_caustics.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Cáusticas</span>
+<h3>Patrones de luz animados</h3>
+<p>Muestra la proyección dinámica de cáusticas sobre la escena.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/4_underwater.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Underwater</span>
+<h3>Escena submarina</h3>
+<p>Enseña partículas, distorsión visual y oscurecimiento por profundidad.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/5_interaction.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Interacción</span>
+<h3>Agua y objetos</h3>
+<p>Demuestra la respuesta del sistema ante objetos, ripples, salpicaduras o flotación.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/6_liquids.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Materiales</span>
+<h3>Distintos líquidos</h3>
+<p>Presenta variaciones de materiales líquidos con diferentes comportamientos visuales.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/presets.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Presets</span>
+<h3>Presets configurables</h3>
+<p>Muestra la idea de modularidad y reutilización mediante configuraciones diferentes.</p>
+</div>
+</article>
+<article class="video-card">
+<video controls="" preload="metadata">
+<source src="videos/shore.mp4" type="video/mp4"/>
+            Tu navegador no soporta vídeo HTML5.
+          </video>
+<div class="video-content">
+<span class="video-tag">Foam</span>
+<h3>Espuma en la orilla</h3>
+<p>Enseña el contacto entre el agua y el entorno mediante shoreline foam.</p>
+</div>
+</article>
+</div>
+</section>
+<section class="github-section section-reveal" id="github">
+<div>
+<p class="eyebrow">Repositorio</p>
+<h2>Documentación y código del plugin</h2>
+<p>
           En el repositorio se puede consultar la estructura del proyecto, la carpeta del plugin
           <strong>LiquidFX</strong>, los materiales, blueprints y recursos utilizados para la demo.
         </p>
-      </div>
-      <a class="button button-primary big-button" href="https://github.com/TU_USUARIO/TU_REPOSITORIO" target="_blank" rel="noopener noreferrer">
+</div>
+<a class="button button-primary big-button" href="https://github.com/TU_USUARIO/TU_REPOSITORIO" rel="noopener noreferrer" target="_blank">
         Abrir GitHub
       </a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>LiquidFX · Trabajo Fin de Grado · María Bolaños Díez</p>
-  </footer>
-
-  <script src="script.js"></script>
+</section>
+</main>
+<footer class="site-footer">
+<p>LiquidFX · Trabajo Fin de Grado · María Bolaños Díez</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
